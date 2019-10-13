@@ -19,8 +19,10 @@
             android:gravity="center"
             android:minHeight="?actionBarSize"
             android:padding="@dimen/appbar_padding"
-            android:text="@string/app_name"
-            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"/>
+            android:text="Save_Dollars"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:textSize="25dp"
+            app:fontFamily="@font/aldrich" />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
